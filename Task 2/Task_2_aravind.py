@@ -23,7 +23,7 @@ Time complexity is O(nlog(n))
 Let row=n,col=m
 1.loop goes over all columns for each row => O(n * m) complexity.
 2.Calculation of totals does the same => O(n* m)
-3.Using nlargest takes O(n*log(m)) 
-4.But in the given qn m<<n,so overall time complexity is O(nlog(n))'''
+3.Using nlargest for top 3 students takes O(n*log(3)) 
+4.In the given qn m<<n,so overall time complexity is O(nlog(n))'''
 
 
