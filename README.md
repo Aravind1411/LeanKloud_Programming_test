@@ -1,1 +1,4 @@
-# LeanKloud_Programming_test
+## Solutions for the internship assignment given by LeanKloud
+
+
+
