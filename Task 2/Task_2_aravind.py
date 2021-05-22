@@ -18,12 +18,12 @@ for i in range(len(best)):
 
 
 '''Time complexity:
-Time complexity is O(nlog(n))
+Time complexity is O(nlog(3))
 
 Let row=n,col=m
-1.loop goes over all columns for each row => O(n * m) complexity.
-2.Calculation of totals does the same => O(n* m)
+1.loop goes over all columns for each row => O(n * m) complexity=>O(6n)=>O(n)
+2.Calculation of totals does the same => O(n)
 3.Using nlargest for top 3 students takes O(n*log(3)) 
-4.In the given qn m<<n,so overall time complexity is O(nlog(n))'''
+4.So overall time complexity is O(nlog(3))'''
 
 
