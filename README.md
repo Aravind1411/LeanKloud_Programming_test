@@ -20,7 +20,7 @@ Build a todo application using FLASK
   * Found the maximum mark in a subject using loc and regular expressions and located the respective Student/Students who got the highest mark
   * Used nlargest function to find the overall best students based on all subjects marks
  ## Time Complexity:
-    O(nlogn)
+    O(nlog(3))
  
        
 
